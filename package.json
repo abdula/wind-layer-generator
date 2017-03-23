@@ -1,0 +1,26 @@
+{
+  "name": "sams-wind",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "@turf/intersect": "^3.7.5",
+    "async": "~0.9.0",
+    "bluebird": "^3.0.5",
+    "csv": "~0.4.1",
+    "debug": "^2.6.0",
+    "lodash": "~2.4.1",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.12.0",
+    "moment-timezone": "^0.5.3",
+    "node-uuid": "~1.4.2",
+    "request": "^2.70.0",
+    "uuid": "^2.0.1",
+    "winston": "~1.0.1"
+  },
+  "devDependencies": {},
+  "bin": {},
+  "scripts": {
+    "start": "node src/index.js 2017-03-22"
+  },
+  "private": true
+}
